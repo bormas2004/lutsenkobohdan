@@ -60,10 +60,18 @@
   height: 100%;
 }
 
+.inform {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
 caption {
   font-weight: 900;
   font-size: 20px;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .text_b {
@@ -101,15 +109,13 @@ dt,
   font-weight: bold;
 }
 
-/* .traveling {
-	width: 300px;
-} */
-table {
+.sailors {
   width: 850px;
   margin: 0 auto;
+  margin-top: 20px;
 }
 
-.row {
+.rower {
   position: relative;
 }
 
@@ -174,5 +180,71 @@ ul {
 
 dl {
   padding-left: 10px;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+@media (min-width: 575.98px) {
+  .container {
+    max-width: 540px;
+    margin: auto;
+    padding: 0;
+  }
+}
+
+@media (min-width: 767.98px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 991.98px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1199.98px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.discovery {
+  padding: 20px 0;
+}
+
+.discovery__title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.discovery__text {
+  font-size: 15px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.discovery__text-a {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.discovery__img {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.discovery .mt {
+  margin-top: 15px;
+}
+
+.discovery .link {
+  margin-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */
