@@ -1,0 +1,141 @@
+.header {
+  background-color: rgb(153, 224, 153);
+  height: 80px;
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 55%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    &-center {
+      justify-content: center;
+    }
+  }
+  &__links {
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    background-color: orange;
+    transition-duration: 0.8s;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      transform: scale(1.2);
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+.container {
+  height: 100%;
+}
+
+// Визначні мореплавці
+caption {
+  font-weight: 900;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.text_b {
+  font-weight: bold;
+}
+.text_c {
+  text-align: center;
+  vertical-align: top;
+}
+.pad {
+  padding: 30px 5px;
+}
+img {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td {
+  padding: 0 5px;
+}
+dt,
+.list {
+  font-weight: bold;
+}
+/* .traveling {
+	width: 300px;
+} */
+table {
+  width: 850px;
+  margin: 0 auto;
+}
+.row {
+  position: relative;
+}
+.list {
+  /* position: absolute;
+	top: 5px; */
+}
+.list__text {
+  font-weight: lighter;
+}
+dl {
+  margin: 0;
+}
+th {
+  font-size: 25px;
+}
+.top {
+  background-color: #d9e2f3;
+}
+.columb {
+  background-color: #fbe4d5;
+}
+.vasko {
+  background-color: #e2efd9;
+}
+.magelan {
+  background-color: #fff2cc;
+}
+.img {
+  display: block;
+
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+// Резюме
+
+h1 {
+  text-align: center;
+}
+
+dt {
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+}
+/* dd {
+    background-color: yellow;
+  } */
+ol,
+ul {
+  margin: 0;
+}
+
+dl {
+  padding-left: 10px;
+}
