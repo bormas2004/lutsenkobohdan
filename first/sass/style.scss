@@ -1,205 +1,241 @@
 .header {
-	background-color: rgb(153, 224, 153);
-	height: 80px;
-	&__box {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		height: 100%;
-		width: 55%;
-		margin: 0 auto;
-		margin-bottom: 20px;
-		&-center {
-			justify-content: center;
-		}
-	}
-	&__links {
-		width: 180px;
-		height: 50px;
-		border: none;
-		border-radius: 15px;
-		background-color: orange;
-		transition-duration: 0.8s;
-		text-decoration: none;
-		text-align: center;
-		color: white;
-		font-weight: 700;
-		font-size: 15px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		&:hover {
-			transform: scale(1.2);
-			text-decoration: none;
-			color: white;
-		}
-	}
+  background-color: rgb(153, 224, 153);
+  height: 80px;
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 55%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    &-center {
+      justify-content: center;
+    }
+  }
+  &__links {
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    background-color: orange;
+    transition-duration: 0.8s;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      transform: scale(1.2);
+      text-decoration: none;
+      color: white;
+    }
+  }
 }
 .container {
-	height: 100%;
+  height: 100%;
 }
 .inform {
-	text-align: center;
-	font-size: 25px;
-	font-weight: 700;
-	margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 20px;
 }
 // Визначні мореплавці
 caption {
-	font-weight: 900;
-	font-size: 20px;
-	margin-bottom: 20px;
-	margin-top: 20px;
+  font-weight: 900;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .text_b {
-	font-weight: bold;
+  font-weight: bold;
 }
 .text_c {
-	text-align: center;
-	vertical-align: top;
+  text-align: center;
+  vertical-align: top;
 }
 .pad {
-	padding: 30px 5px;
+  padding: 30px 5px;
 }
 img {
-	display: block;
-	width: 200px;
-	margin: 0 auto;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
 }
 table,
 th,
 td {
-	border: 1px solid black;
-	border-collapse: collapse;
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 td {
-	padding: 0 5px;
+  padding: 0 5px;
 }
 dt,
 .list {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .sailors {
-	width: 850px;
-	margin: 0 auto;
-	margin-top: 20px;
+  width: 850px;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 .rower {
-	position: relative;
+  position: relative;
 }
 .list {
-	/* position: absolute;
+  /* position: absolute;
 	top: 5px; */
 }
 .list__text {
-	font-weight: lighter;
+  font-weight: lighter;
 }
 dl {
-	margin: 0;
+  margin: 0;
 }
 th {
-	font-size: 25px;
+  font-size: 25px;
 }
 .top {
-	background-color: #d9e2f3;
+  background-color: #d9e2f3;
 }
 .columb {
-	background-color: #fbe4d5;
+  background-color: #fbe4d5;
 }
 .vasko {
-	background-color: #e2efd9;
+  background-color: #e2efd9;
 }
 .magelan {
-	background-color: #fff2cc;
+  background-color: #fff2cc;
 }
 .img {
-	display: block;
+  display: block;
 
-	margin: 0 auto;
-	margin-top: 20px;
-	width: 50px;
-	height: 50px;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
 }
 
 // Резюме
 
 h1 {
-	text-align: center;
+  text-align: center;
 }
 
 dt {
-	font-weight: bold;
-	font-size: 20px;
-	color: red;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
 }
 /* dd {
     background-color: yellow;
   } */
 ol,
 ul {
-	margin: 0;
+  margin: 0;
 }
 
 dl {
-	padding-left: 10px;
+  padding-left: 10px;
 }
 
 .container {
-	padding: 0 15px;
+  padding: 0 15px;
 }
 
 @media (min-width: 575.98px) {
-	.container {
-		max-width: 540px;
-		margin: auto;
-		padding: 0;
-	}
+  .container {
+    max-width: 540px;
+    margin: auto;
+    padding: 0;
+  }
 }
 
 @media (min-width: 767.98px) {
-	.container {
-		max-width: 720px;
-	}
+  .container {
+    max-width: 720px;
+  }
 }
 
 @media (min-width: 991.98px) {
-	.container {
-		max-width: 960px;
-	}
+  .container {
+    max-width: 960px;
+  }
 }
 
 @media (min-width: 1199.98px) {
-	.container {
-		max-width: 1140px;
-	}
+  .container {
+    max-width: 1140px;
+  }
 }
 .discovery {
-	padding: 20px 0;
-	&__title {
-		text-align: center;
-		font-size: 25px;
-		font-weight: 700;
-	}
-	&__text {
-		font-size: 15px;
-		width: 50%;
-		margin: 0 auto;
-		margin-top: 10px;
-		&-a {
-			font-weight: bold;
-			margin-bottom: 10px;
-		}
-	}
-	&__img {
-		display: block;
-		width: 50%;
-		margin: 0 auto;
-	}
-	.mt {
-		margin-top: 15px;
-	}
-	.link {
-		margin-top: 20px;
-	}
+  padding: 20px 0;
+  &__title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  &__text {
+    font-size: 15px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    &-a {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  }
+  &__img {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .mt {
+    margin-top: 15px;
+  }
+  .link {
+    margin-top: 20px;
+  }
+}
+
+.top-of {
+  padding: 50px 0;
+  &__title {
+    text-align: center;
+  }
+  &__text {
+    // width: 100px;
+  }
+  &__container {
+    display: grid;
+    grid-template-columns: 100px auto;
+    margin-top: 10px;
+  }
+  &__block {
+    height: 20px;
+    padding: 0 0 0 10px;
+    background-color: blue;
+    color: white;
+    &-javascript {
+      width: 100%;
+    }
+    &-java {
+      width: 83.7%;
+    }
+    &-csh {
+      width: 74%;
+    }
+    &-python {
+      width: 72%;
+    }
+    &-php {
+      width: 59%;
+    }
+  }
 }

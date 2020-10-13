@@ -4,15 +4,9 @@
 }
 
 .header__box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   height: 100%;
   width: 55%;
   margin: 0 auto;
@@ -20,9 +14,7 @@
 }
 
 .header__box-center {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .header__links {
@@ -31,27 +23,19 @@
   border: none;
   border-radius: 15px;
   background-color: orange;
-  -webkit-transition-duration: 0.8s;
-          transition-duration: 0.8s;
+  transition-duration: 0.8s;
   text-decoration: none;
   text-align: center;
   color: white;
   font-weight: 700;
   font-size: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .header__links:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
   text-decoration: none;
   color: white;
 }
@@ -246,5 +230,46 @@ dl {
 
 .discovery .link {
   margin-top: 20px;
+}
+
+.top-of {
+  padding: 50px 0;
+}
+
+.top-of__title {
+  text-align: center;
+}
+
+.top-of__container {
+  display: grid;
+  grid-template-columns: 100px auto;
+  margin-top: 10px;
+}
+
+.top-of__block {
+  height: 20px;
+  padding: 0 0 0 10px;
+  background-color: blue;
+  color: white;
+}
+
+.top-of__block-javascript {
+  width: 100%;
+}
+
+.top-of__block-java {
+  width: 83.7%;
+}
+
+.top-of__block-csh {
+  width: 74%;
+}
+
+.top-of__block-python {
+  width: 72%;
+}
+
+.top-of__block-php {
+  width: 59%;
 }
 /*# sourceMappingURL=style.css.map */
