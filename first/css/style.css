@@ -4,17 +4,25 @@
 }
 
 .header__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100%;
-  width: 55%;
+  width: 70%;
   margin: 0 auto;
   margin-bottom: 20px;
 }
 
 .header__box-center {
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .header__links {
@@ -23,19 +31,27 @@
   border: none;
   border-radius: 15px;
   background-color: orange;
-  transition-duration: 0.8s;
+  -webkit-transition-duration: 0.8s;
+          transition-duration: 0.8s;
   text-decoration: none;
   text-align: center;
   color: white;
   font-weight: 700;
   font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .header__links:hover {
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
   text-decoration: none;
   color: white;
 }
@@ -241,8 +257,10 @@ dl {
 }
 
 .top-of__container {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 100px auto;
+  -ms-grid-columns: 100px auto;
+      grid-template-columns: 100px auto;
   margin-top: 10px;
 }
 
@@ -253,23 +271,43 @@ dl {
   color: white;
 }
 
-.top-of__block-javascript {
+.top-of__block-c {
   width: 100%;
 }
 
 .top-of__block-java {
-  width: 83.7%;
-}
-
-.top-of__block-csh {
   width: 74%;
 }
 
+.top-of__block-csh {
+  width: 24.5%;
+}
+
 .top-of__block-python {
-  width: 72%;
+  width: 66.5%;
+}
+
+.top-of__block-c-plus {
+  width: 41%;
+}
+
+.top-of__block-v-basic {
+  width: 23.4%;
+}
+
+.top-of__block-java-script {
+  width: 13%;
 }
 
 .top-of__block-php {
-  width: 59%;
+  width: 12.3%;
+}
+
+.top-of__block-r {
+  width: 11.7%;
+}
+
+.top-of__block-sql {
+  width: 9.2%;
 }
 /*# sourceMappingURL=style.css.map */
