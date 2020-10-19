@@ -164,7 +164,7 @@ h1 {
   text-align: center;
 }
 
-dt {
+.resume dt {
   font-weight: bold;
   font-size: 20px;
   color: red;
@@ -224,7 +224,8 @@ dl {
 
 .discovery__text {
   font-size: 15px;
-  width: 50%;
+  width: 90%;
+  text-align: center;
   margin: 0 auto;
   margin-top: 10px;
 }
@@ -236,8 +237,11 @@ dl {
 
 .discovery__img {
   display: block;
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
+  margin-top: 10px;
+  border: 3px solid gray;
+  border-radius: 5px;
 }
 
 .discovery .mt {
@@ -246,6 +250,59 @@ dl {
 
 .discovery .link {
   margin-top: 20px;
+}
+
+.discovery__box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 40%;
+      grid-template-columns: 40% 40%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.discovery__box-b {
+  border: 1px solid gray;
+  border-radius: 10px;
+  overflow-y: auto;
+  height: 400px;
+  position: relative;
+  padding: 10px 0;
+}
+
+.discovery__box ::-webkit-scrollbar {
+  width: 10px;
+}
+
+.discovery__box ::-webkit-scrollbar-button {
+  display: none;
+}
+
+.discovery__box ::-webkit-scrollbar-track {
+  height: 20px;
+}
+
+.discovery__box ::-webkit-scrollbar-thumb {
+  background-color: #8ca88c;
+  border-radius: 10px;
+}
+
+.discovery__source {
+  position: absolute;
+  right: 20px;
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.discovery__source:hover {
+  background-color: #eb1717;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .top-of {
